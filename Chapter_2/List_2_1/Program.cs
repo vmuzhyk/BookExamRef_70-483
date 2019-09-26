@@ -25,8 +25,7 @@ namespace List_2_1
             xs.Data = 100;
             Console.WriteLine("xStruct: {0}", xs.Data);
             Console.WriteLine("yStruct: {0}", ys.Data);
-            //Console.ReadKey();
-            //return;
+            
             ClassStore xc, yc;
             yc = new ClassStore();
             yc.Data = 99;
