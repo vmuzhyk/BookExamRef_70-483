@@ -33,6 +33,7 @@ namespace Example_2_3
             Join.Enter();
             Leave leave = new Leave();
             leave.Out();
+            One();
             
         }
     }

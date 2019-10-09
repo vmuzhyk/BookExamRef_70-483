@@ -6,7 +6,12 @@ namespace Example_2_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TarotCard card = new TarotCard();
+            var monk = new Monk();
+            var skeleton = new Skeleton();
+            card.KillFromOneShoot(monk);
+            card.KillFromOneShoot(skeleton);
+            Console.ReadKey();
         }
     }
 }
