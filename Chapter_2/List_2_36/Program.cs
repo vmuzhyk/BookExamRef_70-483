@@ -14,18 +14,28 @@ namespace List_2_36
         }
         static void Main(string[] args)
         {
-            decimal o = 30.2M;
-            var babyaccount = new BabyAccount();
-            babyaccount.WithdrawFunds(o);
-            var bankacc = new BankAccount();
-            bankacc.WithdrawFunds(40.5M);
 
-            GetFunnyDay(babyaccount);
-            GetFunnyDay(bankacc);
 
-            IAccount toster = babyaccount as IAccount;
-            toster.
-            
+            var account1 = new BankAccount(80675);
+            var account2 = new BankAccount(76647);
+            var result = account1.CompareTo(account2);
+
+            /*// Create 20 accounts with random balances
+            List<IAccount> accounts = new List<IAccount>();
+            Random rand = new Random(1);
+            for (int i = 0; i < 3; i++)
+            {
+                IAccount account = new BankAccount(rand.Next(0, 10000));
+                accounts.Add(account);
+            }
+            // Sort the accounts
+            accounts.Sort();
+            // Display the sorted accounts
+            foreach (IAccount account in accounts)
+            {
+                Console.WriteLine(account.GetBalance());
+            }*/
+            Console.ReadKey();
         }
     }
 }

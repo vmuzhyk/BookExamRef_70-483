@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace List_2_36
 {
-    interface IAccount
+    public interface IAccount : IComparable<IAccount>
     {
         void PayInFunds(decimal amount);
         decimal GetBalance();
