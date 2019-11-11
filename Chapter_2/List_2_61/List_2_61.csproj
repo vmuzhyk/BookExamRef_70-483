@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DB97F050-40A6-495C-A38E-92F7322D66AF}</ProjectGuid>
+    <ProjectGuid>{4AAD172C-10D6-47FC-8915-99A51B2CFAED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>List_2_49</RootNamespace>
-    <AssemblyName>List_2_49</AssemblyName>
+    <RootNamespace>List_2_61</RootNamespace>
+    <AssemblyName>List_2_61</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgrammerAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

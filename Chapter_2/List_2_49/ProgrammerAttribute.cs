@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace List_2_49
 {
+    [AttributeUsage(AttributeTargets.Class)]
     class ProgrammerAttribute : Attribute
     {
         private string programmerValue;
