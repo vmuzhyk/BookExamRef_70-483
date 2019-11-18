@@ -22,7 +22,11 @@ namespace List_2_73
             Console.WriteLine("US balance: {0}", bankBalance.ToString("C", usProvider));
             CultureInfo ukProvider = new CultureInfo("en-GB");
             Console.WriteLine("UK balance: {0}", bankBalance.ToString("C", ukProvider));
-            
+
+            string name = "Rob";
+            int age = 21;
+            Console.WriteLine("Your name is {0} and your age is {1,-5:D}", name, age);
+
             Console.ReadKey();
         }
     }
